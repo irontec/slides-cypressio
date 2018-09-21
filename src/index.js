@@ -13,11 +13,16 @@ import 'reveal.js/css/theme/moon.css';
 import './../content/css/index.scss';
 
 import $ from 'jquery';
-import Reveal from 'reveal.js';
-import Marked from 'reveal.js/plugin/markdown/marked.js'
+import 'reveal.js/plugin/markdown/marked.js'
 import { RevealMarkdown } from 'reveal.js/plugin/markdown/markdown';
-import hljs from 'reveal.js/plugin/highlight/highlight';
-import notes from 'reveal.js/plugin/notes/notes';
+
+const RevealNotes = require("exports-loader?RevealNotes!reveal.js/plugin/notes/notes")
+
+// remove default notes.js keybinding
+Reveal.removeKeyBinding(83);
+Reveal.addKeyBinding({keyCode: 83, key: 'S', description: 'Speaker notes view'}, function() {
+  RevealNotes.open('./notes.html'); // pass "webpacked" route
+} );
 
 import slides from './slides-loader.js';
 

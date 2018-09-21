@@ -62,7 +62,6 @@ Will create a build on _./dist/_.
 # TODO
 
 * npm init
-* Support for more plugins
 * ¿Support for custom themes?
 * ¿Auto publish on github/gitlab pages?
 * ¿generate a SEO friendly dist? 

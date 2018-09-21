@@ -9,11 +9,13 @@ const webpack = require("webpack"),
 const baseConfig = require("./content/config.json");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: {
+    app: "./src/index.js"
+  },
   devtool: "source-map",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "app.js"
+    filename: "[name].js"
   },
   devServer: {
     contentBase: path.resolve(__dirname, "dist")
@@ -26,17 +28,29 @@ module.exports = {
     }]),
     new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }),
     new HtmlWebpackPlugin({
-      template: "./src/index.tmpl",
+      template: './src/index.tmpl',
+      filename: 'index.html',
+      chunks: ['app'],
       hash: true,
       minify: {
         collapseWhitespace: true
       },
       title: baseConfig.title
     }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      excludeChunks: ['app'],
+      template: 'node_modules/reveal.js/plugin/notes/notes.html',
+      filename: 'notes.html',
+      minify: {
+        collapseWhitespace: true
+      }
+    }),
     new webpack.ProvidePlugin({
-      Reveal: "reveal.js",
-      hljs: "reveal.js/plugin/highlight/highlight.js"
-    })
+      "window.Reveal": "reveal.js/",
+      "Reveal": "reveal.js",
+      "hljs": "reveal.js/plugin/highlight/highlight.js"
+    }),
   ],
   module: {
     rules: [
