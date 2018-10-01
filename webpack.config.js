@@ -4,6 +4,7 @@ const webpack = require("webpack"),
   path = require("path"),
   HtmlWebpackPlugin = require("html-webpack-plugin"),
   CopyWebpackPlugin = require("copy-webpack-plugin"),
+  MiniCssExtractPlugin = require("mini-css-extract-plugin"),
   ImageminPlugin = require("imagemin-webpack-plugin").default;
 
 const baseConfig = require("./content/config.json");
@@ -46,6 +47,12 @@ module.exports = {
         collapseWhitespace: true
       }
     }),
+    new MiniCssExtractPlugin({
+      // Options similar to the same options in webpackOptions.output
+      // both options are optional
+      filename: "[name].css",
+      chunkFilename: "[id].css"
+    }),
     new webpack.ProvidePlugin({
       "window.Reveal": "reveal.js/",
       "Reveal": "reveal.js",
@@ -74,7 +81,8 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          "style-loader",
+          
+          MiniCssExtractPlugin.loader,
           "css-loader",
           {
             loader: "postcss-loader",
@@ -94,7 +102,7 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          "style-loader",
+          MiniCssExtractPlugin.loader,
           "css-loader",
           {
             loader: "postcss-loader",

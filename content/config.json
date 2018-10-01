@@ -5,7 +5,7 @@
     "progress": true,
     "history": true,
     "center": true,
-    "slideNumber": false,
+    "slideNumber": true,
     "touch": true,
     "hideAddressBar": true,
     "mouseWheel": true
