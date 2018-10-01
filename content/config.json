@@ -14,7 +14,9 @@
     {"path": "index.md", "attrs": {"class":"intro"}},
     [
         "subcontent/01.md",
-        "subcontent/02.md"
+        "subcontent/02.md",
+        "subcontent/03.md",
+        "subcontent/04.md"
     ],
     "end.html"
   ]
