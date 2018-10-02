@@ -37,9 +37,5 @@ function prepareSlide(slide) {
 }
 
 export default baseConfig.slides.map(slide => {
-  if (Array.isArray(slide)) {
-    return slide.map(prepareSlide);
-  } else {
-    return prepareSlide(slide);
-  }
+  return (Array.isArray(slide))? slide.map(prepareSlide):prepareSlide(slide);
 });

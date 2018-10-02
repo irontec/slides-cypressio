@@ -9,7 +9,6 @@ const webpack = require("webpack"),
 
 const baseConfig = require("./content/config.json");
 
-
 const optsIfDef = {
   plugins: baseConfig.plugins,
 };
@@ -71,6 +70,12 @@ module.exports = {
       {
         test: /\.(txt)|(md)|(html?)$/,
         use: ["raw-loader"]
+      },
+      {
+        test: /config\.json$/,
+        use: [{
+          loader: require.resolve('./src/loaders/json_glob.js')
+        }]
       },
       {
         test: /\.jsx?$/,
