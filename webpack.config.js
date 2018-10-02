@@ -9,6 +9,11 @@ const webpack = require("webpack"),
 
 const baseConfig = require("./content/config.json");
 
+
+const optsIfDef = {
+  plugins: baseConfig.plugins,
+};
+
 module.exports = {
   entry: {
     app: "./src/index.js"
@@ -38,15 +43,17 @@ module.exports = {
       },
       title: baseConfig.title
     }),
-    new HtmlWebpackPlugin({
-      hash: true,
-      excludeChunks: ['app'],
-      template: 'node_modules/reveal.js/plugin/notes/notes.html',
-      filename: 'notes.html',
-      minify: {
-        collapseWhitespace: true
-      }
-    }),
+    ...(baseConfig.plugins.notes ? 
+          [new HtmlWebpackPlugin({
+            hash: true,
+            excludeChunks: ['app'],
+            template: 'node_modules/reveal.js/plugin/notes/notes.html',
+            filename: 'notes.html',
+            minify: {
+              collapseWhitespace: true
+            }
+          })] : []
+    ),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
@@ -75,7 +82,8 @@ module.exports = {
               plugins: [],
               presets: ["env", "stage-0"]
             }
-          }
+          },
+          {loader: 'condition-loader', options: optsIfDef } 
         ]
       },
       {
@@ -92,8 +100,6 @@ module.exports = {
                   require("cssnano")({discardComments: { removeAll: true }}),
                   require("autoprefixer")
                 ];
-
-
               }
             }
           }

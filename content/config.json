@@ -10,6 +10,12 @@
     "hideAddressBar": true,
     "mouseWheel": true
   },
+  "plugins": {
+    "search": true,
+    "zoom":   true,
+    "menu":   true,
+    "notes":  true
+  },
   "slides": [
     {"path": "index.md", "attrs": {"class":"intro"}},
     [

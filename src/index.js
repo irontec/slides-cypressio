@@ -6,7 +6,7 @@ import 'highlight.js/styles/atom-one-dark.css'
 /**
  * Select current revel.js theme
  */
-import 'reveal.js/css/theme/moon.css';
+import 'reveal.js/css/theme/sky.css';
 //import '../reveal-irontec-theme/css/styleLight.css'
 
 import './../content/css/index.scss';
@@ -18,22 +18,9 @@ import $ from 'jquery';
 import { library, dom } from "@fortawesome/fontawesome-svg-core";
 dom.watch();
 
-// Markdown plugin
-import 'reveal.js/plugin/markdown/marked.js'
-import { RevealMarkdown } from 'reveal.js/plugin/markdown/markdown';
-
-// Speaker Notes Plugin
-const RevealNotes = require("exports-loader?RevealNotes!reveal.js/plugin/notes/notes")
-Reveal.removeKeyBinding(83); // remove default notes.js keybinding
-Reveal.addKeyBinding({keyCode: 83, key: 'S', description: 'Speaker notes view'}, function() {
-  RevealNotes.open('./notes.html'); // pass "webpacked" route
-} );
-
-
 import slides from './slides-loader.js';
 
 const $slides = $('#slides');
-
 slides.forEach(slide => {
   if (Array.isArray(slide)) {
     $slides.append(`<section>${slide.join('')}</section>`);
@@ -54,9 +41,14 @@ Reveal.initialize({
   ...baseConfig.options,
 });
 
+import 'reveal.js/plugin/markdown/marked.js'
+import { RevealMarkdown } from 'reveal.js/plugin/markdown/markdown';
 RevealMarkdown.initialize();
+import hljs from 'reveal.js/plugin/highlight/highlight.js';
+hljs.initHighlightingOnLoad();
 
-// import reveal.js-menu files 
+
+// #if plugins.menu
 import 'reveal.js-menu/menu.css';
 import { 
   faImages,
@@ -69,7 +61,20 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 library.add(faImages, faAdjust, faStickyNote, faTimes, faBars, faArrowAltCircleRight, faCheckCircle);
 require("exports-loader?RevealMenu!reveal.js-menu/menu.js");
+// #endif
 
+// #if plugins.zoom
+import 'reveal.js/plugin/zoom-js/zoom.js';
+// #endif
 
-hljs.initHighlightingOnLoad();
+// #if plugins.search
+import 'reveal.js/plugin/search/search.js';
+// #endif
 
+// #if plugins.notes
+const RevealNotes = require("exports-loader?RevealNotes!reveal.js/plugin/notes/notes")
+Reveal.removeKeyBinding(83); // remove default notes.js keybinding
+Reveal.addKeyBinding({keyCode: 83, key: 'S', description: 'Speaker notes view'}, function() {
+  RevealNotes.open('./notes.html'); // pass "webpacked" route
+} );
+// #endif

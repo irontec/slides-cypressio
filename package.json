@@ -19,6 +19,7 @@
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
+    "condition-loader": "^1.0.5",
     "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^0.28.11",
     "exports-loader": "^0.7.0",
