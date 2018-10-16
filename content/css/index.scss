@@ -1,1 +1,9 @@
 @import '~reveal.js/css/theme/league.css';
+
+.intro {
+  img {
+    border: 0px !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
