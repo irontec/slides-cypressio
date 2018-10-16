@@ -13,6 +13,6 @@ Añadimos opciones:
         "overwrite": false,
         "reportDir": "reports",
         "reportFilename": "Report",
-        "code": "false"      
+        "code": "false"
     }
 ```

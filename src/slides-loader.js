@@ -1,4 +1,3 @@
-
 import baseConfig from './../content/config.json';
 
 const context = require.context('../content/slides/', true, /\.[md|html?]/);

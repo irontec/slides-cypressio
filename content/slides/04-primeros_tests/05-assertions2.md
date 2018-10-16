@@ -1,11 +1,11 @@
 ### 4.5. ASSERTIONS / AFIRMACIONES (II)
 
 expect: BDD assertion
-```ts
+```typescript
 
 ```
 assert: TDD assertion
-```ts
+```typescript
 
 ```
 

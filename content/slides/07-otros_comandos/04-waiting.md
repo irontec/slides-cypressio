@@ -1,7 +1,7 @@
 ### 6.3. WAITING
- 
+
 cy.wait()
-```ts
+```typescript
 cy.server()
 cy.route('/accounts/*').as('getAccount')
 cy.visit('/accounts/123')

@@ -1,17 +1,17 @@
 ### 6.1. TRAVESÍA DE ELEMENTOS (I)
- 
+
 .eq()
-```ts
+```typescript
 cy.get('list')
   .eq(2).should('contain', 'Tercer elemento')
 ```
 .find()
-```ts
+```typescript
 cy.get('.paginacion').find('li').find('a')
   .should('have.length', 7)
 ```
 .first()
-```ts
+```typescript
 cy.get('.table td')
   .first().should('contain', '1')
 ```

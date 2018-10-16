@@ -3,7 +3,7 @@
 En el fichero 'cypress/support/commands.js'
 
 Sintaxis:
-```ts
+```typescript
 Cypress.Commands.add(name, options, callbackFn)
 ```
 

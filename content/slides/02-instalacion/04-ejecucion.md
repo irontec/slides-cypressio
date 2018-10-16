@@ -1,11 +1,11 @@
 ### 1.3. Ejecución
 
-Primera ejecución de Cypress.io 
+Primera ejecución de Cypress.io
 
-```ts
+```typescript
 npm run cy:open
 ```
-Se creará la carpeta `cypress` 
+Se creará la carpeta `cypress`
 
-Dento de `cypress/integration` crearemos nuestros specs 
+Dento de `cypress/integration` crearemos nuestros specs
 

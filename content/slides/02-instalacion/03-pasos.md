@@ -1,12 +1,12 @@
 ### 1.2. Pasos a seguir
 
-En el mismo proyecto o en un proyecto independiente 
-```ts
+En el mismo proyecto o en un proyecto independiente
+```typescript
 cd /your/project/path
 
 npm install cypress --save-dev
 ```
-Creamos el fichero `package.json` 
+Creamos el fichero `package.json`
 ```json
 {
  "scripts": {

@@ -1,15 +1,15 @@
 ### 4.3. COMANDOS NAVEGACIÓN (I)
 
 cy.visit():
-```ts
+```typescript
 cy.visit('http://www.google.com')
 ```
-cy.reload(): 
-```ts
+cy.reload():
+```typescript
 cy.reload(true)
 ```
-cy.go() : 
-```ts
+cy.go() :
+```typescript
 cy.go('back')
 cy.go('forward')
 cy.go(-1)

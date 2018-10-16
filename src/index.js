@@ -1,13 +1,10 @@
 import baseConfig from './../content/config.json';
 
 import 'reveal.js/css/reveal.css';
-import 'highlight.js/styles/atom-one-dark.css'
 
 /**
  * Select current revel.js theme
  */
-import 'reveal.js/css/theme/league.css';
-
 import './../content/css/index.scss';
 
 // jQuery!
@@ -43,9 +40,28 @@ Reveal.initialize({
 import 'reveal.js/plugin/markdown/marked.js'
 import { RevealMarkdown } from 'reveal.js/plugin/markdown/markdown';
 RevealMarkdown.initialize();
-import hljs from 'reveal.js/plugin/highlight/highlight.js';
-hljs.initHighlightingOnLoad();
 
+
+
+// #if plugins.highlightjs
+import 'highlight.js/styles/atom-one-dark.css'
+import hljs from 'highlight.js/lib/highlight';
+
+Promise.all(
+  // Auto-find languages (alias not supported)
+  $("code").toArray()
+  .map(item => String($(item).attr("class") || "").replace("lang-","")).filter(Boolean)
+  .map(lang => ({lang, bundledResult: require('highlight.js/lib/languages/'+ lang + '.js')}))
+  .map(({lang, bundledResult}) => {
+    return new Promise((resolve) => {
+      bundledResult((result) => {
+        hljs.registerLanguage(lang, result);
+        return resolve();
+      });
+    });
+  })
+).then(() => hljs.initHighlightingOnLoad());
+// #endif
 
 // #if plugins.menu
 import 'reveal.js-menu/menu.css';

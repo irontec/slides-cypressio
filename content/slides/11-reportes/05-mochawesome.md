@@ -4,11 +4,11 @@ Custom reporter que utiliza Mocha
 
 Necesitamos instalar Mocha:
 
-```ts
+```typescript
 npm install --save-dev mocha
 ```
  Y Mochawesome:
 
-```ts
+```typescript
 npm install --save-dev mochawesome
 ```

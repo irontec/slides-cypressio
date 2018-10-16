@@ -1,16 +1,16 @@
 ### 6.2. LOCATION
- 
+
 cy.url()
-```ts
+```typescript
 cy.url().should('contain', '#users/new')
 ```
  cy.hash()
- ```ts
+ ```typescript
 cy.hash().should('eq', '#/users/new')
  ```
  cy.location()
- ```ts
-cy.location('pathname').should('eq', '/login')  
+ ```typescript
+cy.location('pathname').should('eq', '/login')
  ```
  hash, host, hostname, href, origin, pathname, port, protocol, search
 

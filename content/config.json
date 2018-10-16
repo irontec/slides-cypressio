@@ -1,5 +1,5 @@
 {
-  "title": "🦄 Irontec reveal.js - webpack starter demo 🦄",
+  "title": "Cypress.io",
   "options": {
     "controls": true,
     "progress": true,
@@ -14,7 +14,8 @@
     "search": true,
     "zoom":   true,
     "menu":   true,
-    "notes":  true
+    "notes":  true,
+    "highlightjs": true
   },
   "slides": [
     {"path": "index.md", "attrs": {"class":"intro"}},

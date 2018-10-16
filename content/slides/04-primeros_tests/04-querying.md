@@ -1,15 +1,15 @@
 ### 4.4. CONSULTA ELEMENTOS / QUERYING (I)
- 
+
 cy.get()
-```ts
+```typescript
 cy.get('.button')
 ```
 cy.contains()
-```ts
+```typescript
 cy.get('.button').contains('Enviar')
 ```
 .within()
-```ts
+```typescript
 cy.get('.query-form').within(() => {
     cy.get('input:first')
     cy.get('input:last')
