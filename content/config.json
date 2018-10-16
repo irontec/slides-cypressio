@@ -19,8 +19,31 @@
   "slides": [
     {"path": "index.md", "attrs": {"class":"intro"}},
     [
-        "subcontent/*.md",
-        "last.md"
+      "01-introduccion/*.md"
+    ],
+    [
+      "02-instalacion/*.md"
+    ],
+    [
+      "03-modos_ejecucion/*.md"
+    ],
+    [
+      "04-primeros_tests/*.md"
+    ],
+    [
+      "05-selectores_elementos/*.md"
+    ],
+    [
+      "06-ejercicio_practico1/*.md"
+    ],
+    [
+      "07-otros_comandos/*.md"
+    ],
+    [
+      "08-ejercicio_practico2/*.md"
+    ],
+    [
+      "09-comandos_custom/*.md"
     ],
     "end.html"
   ]

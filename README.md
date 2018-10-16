@@ -17,7 +17,7 @@ Clone this proyect and change the **./content** directory:
 
 ```json
 {
-  "title": "🦄 Irontec reveal.js - webpack starter demo 🦄",
+  "title": "🦄 Automatización de tests con Cypress.io 🦄",
   "options": {
     "controls": true,
     "progress": true,
