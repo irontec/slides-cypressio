@@ -41,6 +41,7 @@ import 'reveal.js/plugin/markdown/marked.js'
 import { RevealMarkdown } from 'reveal.js/plugin/markdown/markdown';
 RevealMarkdown.initialize();
 
+import 'irontec-reveal.js-theme';
 
 
 // #if plugins.highlightjs

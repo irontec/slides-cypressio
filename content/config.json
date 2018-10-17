@@ -20,7 +20,14 @@
   "slides": [
     {"path": "index.md", "attrs": {"class":"intro"}},
     [
-      "01-introduccion/*.md"
+      {"path": "01-introduccion/01-titulo.md", "attrs": {"class":"bg-dark"}},
+      {"path": "01-introduccion/02-automatizar.md", "attrs": {"class":"bg-dark"}},
+      {"path": "01-introduccion/03-cypress.md", "attrs": {"class":"bg-dark"}},
+      {"path": "01-introduccion/04-cypress-framework.md", "attrs": {"class":"bg-dark"}},
+      {"path": "01-introduccion/05-e2e.md", "attrs": {"class":"bg-dark"}},
+      {"path": "01-introduccion/05-e2e1.md", "attrs": {"class":"bg-dark"}},
+      {"path": "01-introduccion/07-cypress-caracteristicas.md", "attrs": {"class":"bg-dark"}},
+      {"path": "01-introduccion/08-comparacion-frameworks.md", "attrs": {"class":"bg-dark"}}
     ],
     [
       "02-instalacion/*.md"
