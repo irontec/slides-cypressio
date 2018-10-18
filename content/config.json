@@ -12,7 +12,7 @@
   },
   "plugins": {
     "search": true,
-    "zoom":   true,
+    "zoom":   false,
     "menu":   true,
     "notes":  true,
     "highlightjs": true
@@ -21,13 +21,14 @@
     {"path": "index.md", "attrs": {"class":"intro"}},
     [
       {"path": "01-introduccion/01-titulo.md", "attrs": {"class":"bg-dark"}},
-      {"path": "01-introduccion/02-automatizar.md", "attrs": {"class":"bg-dark"}},
+      {"path": "01-introduccion/02-automatizar.md", "attrs": {"class":"bg-grey"}},
       {"path": "01-introduccion/03-cypress.md", "attrs": {"class":"bg-dark"}},
       {"path": "01-introduccion/04-cypress-framework.md", "attrs": {"class":"bg-dark"}},
       {"path": "01-introduccion/05-e2e.md", "attrs": {"class":"bg-dark"}},
       {"path": "01-introduccion/05-e2e1.md", "attrs": {"class":"bg-dark"}},
       {"path": "01-introduccion/07-cypress-caracteristicas.md", "attrs": {"class":"bg-dark"}},
-      {"path": "01-introduccion/08-comparacion-frameworks.md", "attrs": {"class":"bg-dark"}}
+      {"path": "01-introduccion/08-comparacion-frameworks.md", "attrs": {"class":"bg-dark"}},
+      {"path": "01-introduccion/09-cita.md", "attrs": {"class":"bg-img"}}
     ],
     [
       "02-instalacion/*.md"
@@ -53,6 +54,6 @@
     [
       "09-comandos_custom/*.md"
     ],
-    "end.html"
+    {"path": "last.md", "attrs": {"class":"last bg-red"}}
   ]
 }
