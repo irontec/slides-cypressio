@@ -1,8 +1,8 @@
 // @import '~reveal.js/css/theme/league.css';
-// @import '~irontec-reveal.js-theme';
+@import '~irontec-reveal.js-theme/dist/theme.css';
 
 .intro {
-  background-image: url('~/media/fondo_presentacion.jpg');
+  background-image: url('../assets/media/fondo_presentacion.jpg');
   img {
     border: 0px !important;
     background: transparent !important;
