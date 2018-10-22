@@ -1,4 +1,4 @@
-### 10.2 Mochawesome
+### 12.2 Mochawesome
 
 En el fichero "cypress.json" especificamos el reporter:
 

@@ -1,4 +1,4 @@
-### 10.1 Dashboard Cypress.io
+### 12.1 Dashboard Cypress.io
 
 El 1 de Octubre dejó de ser BETA.
 

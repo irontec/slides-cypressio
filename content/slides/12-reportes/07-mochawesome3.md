@@ -1,4 +1,4 @@
-### 10.3 Mochawesome
+### 12.2 Mochawesome
 
 Ejecutamos los tests con el comando "run".
 

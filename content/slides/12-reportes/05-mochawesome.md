@@ -1,4 +1,4 @@
-### 10.2 Mochawesome
+### 12.2 Mochawesome
 
 Custom reporter que utiliza Mocha JS.
 
