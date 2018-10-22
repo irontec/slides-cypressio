@@ -1,4 +1,4 @@
-### 6.1. TRAVESÍA DE ELEMENTOS (II)
+### 6.1. Travesía de elementos
 
 .last()
 ```javascript

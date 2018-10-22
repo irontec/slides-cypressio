@@ -1,4 +1,4 @@
-### 3.2. RUN (I)
+### 3.2. Run
 
 Modo headless
 

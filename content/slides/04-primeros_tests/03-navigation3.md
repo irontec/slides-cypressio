@@ -1,0 +1,1 @@
+![Bloqueo script](media/filmaffinity.png)  <!-- .element: style="width: 70%; text-align:center;" -->

@@ -1,4 +1,4 @@
-### 4.3. COMANDOS NAVEGACIÓN (I)
+### 4.3. Comandos navegación
 
 cy.visit():
 ```typescript

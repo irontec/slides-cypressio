@@ -5,4 +5,4 @@ Herramienta de [testeo](https://irontec.com) de front-end de código abierto. <!
 * Comandos en el mismo ciclo de ejecución <!-- .element: class="fragment" -->
 * Acceso a parte Front y Back de la aplicación <!-- .element: class="fragment" -->
 * Se centra en pruebas E2E <!-- .element: class="fragment" -->
-* Diseñada para frameworks de Javascript modernos. <!-- .element: class="fragment" -->
+* Diseñada para frameworks de Javascript modernos <!-- .element: class="fragment" -->

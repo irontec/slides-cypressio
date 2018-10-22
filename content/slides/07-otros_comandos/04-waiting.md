@@ -1,4 +1,4 @@
-### 6.3. WAITING
+### 6.3. Waiting
 
 cy.wait()
 ```typescript

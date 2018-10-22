@@ -1,7 +1,7 @@
-## JUNIT
+### 10.4 Junit
 
-Ejecutamos los tests con el comando "run"
+Ejecutamos los tests con el comando "run".
 
-Se crean reports xml
+Se crean reports xml.
 
 ![junit](media/junit.png) <!-- .element: style="height:350px;"--> 

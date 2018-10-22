@@ -1,10 +1,9 @@
-### 6.4. WINDOW
+### 6.4. Window
 
 cy.title()
 ```typescript
 cy.title().should('include', 'Título web')
 ```
- * cy.window()
 cy.document()
  ```typescript
 cy.document().should('have.property', 'charset').and('eq', 'UTF-8')

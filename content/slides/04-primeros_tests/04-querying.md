@@ -1,4 +1,4 @@
-### 4.4. CONSULTA ELEMENTOS / QUERYING (I)
+### 4.4. Consulta elementos / Querying
 
 cy.get()
 ```typescript

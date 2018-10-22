@@ -1,4 +1,4 @@
-### 4.1. CREACIÓN DE TEST
+### 4.1. Creación de test
 
 En "cypress/integration" creamos el primer test: 
 

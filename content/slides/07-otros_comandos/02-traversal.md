@@ -1,4 +1,4 @@
-### 6.1. TRAVESÍA DE ELEMENTOS (I)
+### 6.1. Travesía de elementos
 
 .eq()
 ```typescript

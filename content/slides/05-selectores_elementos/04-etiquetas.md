@@ -1,8 +1,13 @@
-### 5.3. ETIQUETAS ÚNICAS
+### 5.3. Etiquetas únicas
 
-No afectan a cambios de clases
-Preferencia a cualquier otra etiqueta
+No afectan a cambios de clases. Preferencia a cualquier otra etiqueta.
 
-* data-cy
-* data-test
-* data-testid
+* data-cy <!-- .element: class="fragment" -->
+* data-test <!-- .element: class="fragment" -->
+* data-testid <!-- .element: class="fragment" --> </br></br> 
+
+```typescript 
+cy.get('[data-cy=submit]').click()
+``` 
+
+<!-- .element: class="fragment" -->

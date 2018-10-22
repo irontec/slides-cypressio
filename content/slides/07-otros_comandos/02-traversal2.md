@@ -1,4 +1,4 @@
-### 6.1. TRAVESÍA DE ELEMENTOS (III)
+### 6.1. Travesía de elementos
 
 .nextUntil()
 ```typescript

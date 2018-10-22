@@ -1,6 +1,6 @@
-### 6.5. CONECTORES (II)
+### 6.5. Conectores
 
-then()
+.then()
 ```typescript
 cy.get('div a').should('have.attr', 'href')
   .then((href) => {

@@ -1,4 +1,4 @@
-### 3.1. OPEN (I)
+### 3.1. Open
 
 Modo headed
 

@@ -1,4 +1,4 @@
-### 6. EJERCICIO PRÁCTICO
+### 6. Ejercicio práctico
 
 * Rellenar el campo nombre del formulario <!-- .element: class="fragment" -->
 * Seleccionar en el formulario la frase que te identifica <!-- .element: class="fragment" -->

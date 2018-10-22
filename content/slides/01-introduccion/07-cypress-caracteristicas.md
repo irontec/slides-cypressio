@@ -1,4 +1,4 @@
-### 1.3. Características Cypress.io (I)
+### 1.3. Características Cypress.io
 
 * Depurabilidad. <!-- .element: class="fragment" -->
 * Espera automática.<!-- .element: class="fragment" -->

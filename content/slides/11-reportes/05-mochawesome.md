@@ -1,6 +1,6 @@
-## MOCHAWESOME
+### 10.2 Mochawesome
 
-Custom reporter que utiliza Mocha
+Custom reporter que utiliza Mocha JS.
 
 Necesitamos instalar Mocha:
 

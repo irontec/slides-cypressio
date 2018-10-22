@@ -1,4 +1,4 @@
-### 4.5. ASSERTIONS / AFIRMACIONES (I)
+### 4.5. Assertions / Afirmaciones
 
 .should()
 ```typescript

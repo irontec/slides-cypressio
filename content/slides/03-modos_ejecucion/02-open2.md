@@ -1,3 +1,3 @@
-### 3.1. OPEN (II)
+### 3.1. Open
 
 ![ejecucion](media/ejecucion.png) <!-- .element: style="height:400px;"--> 

@@ -1,4 +1,4 @@
-### 4.5. ASSERTIONS / AFIRMACIONES (II)
+### 4.5. Assertions / Afirmaciones
 
 expect: BDD assertion
 ```typescript

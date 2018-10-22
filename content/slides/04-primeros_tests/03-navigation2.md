@@ -1,4 +1,4 @@
-### 4.3. COMANDOS NAVEGACIÓN (II)
+### 4.3. Comandos navegación
 
 No es aconsejable testear aplicaciones que no sean nuestras: <!-- .element: style="text-align: left;" -->
 

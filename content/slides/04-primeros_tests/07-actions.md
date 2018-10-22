@@ -1,4 +1,4 @@
-### 4.7. ACCIONES (I)
+### 4.7. Acciones
 
 .type()
 ```typescript

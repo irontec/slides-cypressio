@@ -5,7 +5,7 @@ Primera ejecución de Cypress.io
 ```typescript
 npm run cy:open
 ```
-Se creará la carpeta `cypress`
+Se creará la carpeta `cypress`.
 
-Dento de `cypress/integration` crearemos nuestros specs
+Dento de `cypress/integration` crearemos nuestros specs.
 

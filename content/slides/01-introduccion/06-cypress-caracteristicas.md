@@ -1,4 +1,4 @@
-### 1.3. Características Cypress.io (I)
+### 1.3. Características Cypress.io
 
 * Viaja en el tiempo. <!-- .element: class="fragment" -->
 * Recargas en tiempo real. <!-- .element: class="fragment" -->

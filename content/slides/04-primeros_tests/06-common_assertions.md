@@ -1,10 +1,10 @@
-### 4.6. AFIRMACIONES COMUNES
+### 4.6. Afirmaciones comunes
 
- * Length
- * Class
- * Value
- * Text content
- * Visibility
- * Existence
- * State
+ * Length <!-- .element: class="fragment" -->
+ * Class  <!-- .element: class="fragment" -->
+ * Value <!-- .element: class="fragment" -->
+ * Text content <!-- .element: class="fragment" -->
+ * Visibility <!-- .element: class="fragment" -->
+ * Existence <!-- .element: class="fragment" -->
+ * State <!-- .element: class="fragment" -->
  

@@ -1,4 +1,4 @@
-### 9.1 CREACIÓN DE COMANDOS
+### 9.1 Creación de comandos
 
 En el fichero 'cypress/support/commands.js'
 

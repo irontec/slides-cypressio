@@ -1,6 +1,6 @@
 ### 1.2. Pasos a seguir
 
-En el mismo proyecto o en un proyecto independiente
+En el mismo proyecto o en un proyecto independiente: 
 ```typescript
 cd /your/project/path
 

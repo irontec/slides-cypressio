@@ -1,4 +1,4 @@
-### 6. EJERCICIO PRÁCTICO
+### 6. Ejercicio práctico
 
 * Visitar https://www.irontec.com/ <!-- .li: class="fragment" -->
 * Contenido del título correcto <!-- .element: class="fragment" -->

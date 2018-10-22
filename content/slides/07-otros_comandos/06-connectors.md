@@ -1,16 +1,16 @@
-### 6.5. CONECTORES (I)
+### 6.5. Conectores
 
-each()
+.each()
 ```typescript
 cy.get('ul li span').each(($el, index, $list) => {
   cy.wrap($el).should('not.be.empty')
 })
 ```
-its()
+.its()
 ```typescript
 cy.get('ul li').its('length').should('eq', 7)
  ```
-invoke()
+.invoke()
 ```typescript
 cy.get('ul li span').eq(0)
   .invoke('text').should('not.be.empty')

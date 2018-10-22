@@ -1,4 +1,4 @@
-### 4.7. ACCIONES (II)
+### 4.7. Acciones
 
 .clear()
 ```typescript
