@@ -30,8 +30,7 @@
       {"path": "01-introduccion/05-e2e-gif2.md", "attrs": {"class":"bg-grey"}},
       {"path": "01-introduccion/06-cypress-caracteristicas.md", "attrs": {"class":"bg-grey"}},
       {"path": "01-introduccion/07-cypress-caracteristicas.md", "attrs": {"class":"bg-grey"}},
-      {"path": "01-introduccion/08-comparacion-frameworks.md", "attrs": {"class":"bg-grey"}},
-      {"path": "01-introduccion/09-cita.md", "attrs": {"class":"bg-img"}}
+      {"path": "01-introduccion/08-comparacion-frameworks.md", "attrs": {"class":"bg-grey"}}
     ],
     [
       {"path": "02-instalacion/01-titulo.md", "attrs": {"class":"bg-dark"}},
@@ -53,7 +52,6 @@
       {"path": "04-primeros_tests/02-hooks.md", "attrs": {"class":"bg-grey"}},
       {"path": "04-primeros_tests/03-navigation.md", "attrs": {"class":"bg-grey"}},
       {"path": "04-primeros_tests/03-navigation2.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/03-navigation3.md", "attrs": {"class":"bg-grey"}},
       {"path": "04-primeros_tests/04-querying.md", "attrs": {"class":"bg-grey"}},
       {"path": "04-primeros_tests/04-querying2.md", "attrs": {"class":"bg-grey"}},
       {"path": "04-primeros_tests/05-assertions.md", "attrs": {"class":"bg-grey"}},
@@ -95,8 +93,9 @@
       {"path": "09-comandos_custom/02-custom.md", "attrs": {"class":"bg-grey"}}
     ],
     [
-      {"path": "10-refactorizacion/01-titulo.md", "attrs": {"class":"bg-dark"}},
-      {"path": "10-refactorizacion/02-refactorizar.md", "attrs": {"class":"bg-grey"}}
+      {"path": "10-network_request/01-titulo.md", "attrs": {"class":"bg-dark"}},
+      {"path": "10-network_request/02-routing.md", "attrs": {"class":"bg-grey"}},
+      {"path": "10-network_request/03-assertions.md", "attrs": {"class":"bg-grey"}}
     ],
     [
       {"path": "11-practica/01-titulo.md", "attrs": {"class":"bg-dark"}},
