@@ -1,2 +1,2 @@
-## 4. PRIMEROS TESTS
+## 4. Primeros tests
 

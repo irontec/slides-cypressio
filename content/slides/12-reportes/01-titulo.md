@@ -1,2 +1,2 @@
-## 12. REPORTES
+## 12. Reportes
 

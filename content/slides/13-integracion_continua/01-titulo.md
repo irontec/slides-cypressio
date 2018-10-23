@@ -1,2 +1,2 @@
-## 13. INTEGRACIÓN CONTÍNUA
+## 13. Integración continua
 

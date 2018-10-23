@@ -1,1 +1,1 @@
-## 2. INSTALACIÓN CYPRESS.IO
+## 2. Instalación Cypress.io

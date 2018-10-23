@@ -1,2 +1,2 @@
-## 5. SELECTORES DE ELEMENTOS
+## 5. Selector de elementos
 

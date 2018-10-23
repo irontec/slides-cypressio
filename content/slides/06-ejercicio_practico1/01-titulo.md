@@ -1,2 +1,2 @@
-## 6. EJERCICIO PRÁCTICO 1
+## 6. Ejercicio práctico 1
 

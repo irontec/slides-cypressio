@@ -1,2 +1,2 @@
-## 9. COMANDOS CUSTOM
+## 9. Comandos custom
 

@@ -1,2 +1,2 @@
-## 6. OTROS COMANDOS
+## 6. Otros comandos
 

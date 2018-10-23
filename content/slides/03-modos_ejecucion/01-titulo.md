@@ -1,2 +1,2 @@
-## 3. MODOS DE EJECUCIÓN DE TESTS
+## 3. Modos de ejecución
 

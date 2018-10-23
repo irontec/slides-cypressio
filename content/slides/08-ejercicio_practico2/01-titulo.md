@@ -1,1 +1,1 @@
-## 8. EJERCICIO PRÁCTICO 2
+## 8. Ejercicio práctico 2

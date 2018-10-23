@@ -1,1 +1,1 @@
-## 10. NETWORK REQUEST
+## 10. Network request

@@ -1,1 +1,1 @@
-## 1. INTRODUCCIÓN
+## 1. Introducción
