@@ -45,7 +45,8 @@
     "webpack": "^4.19.1",
     "webpack-bundle-analyzer": "^3.0.2",
     "webpack-cli": "^2.1.5",
-    "webpack-dev-server": "^3.1.8"
+    "webpack-dev-server": "^3.1.8",
+    "workbox-webpack-plugin": "^3.6.3"
   },
   "dependencies": {
     "highlight.js": "^9.12.0",
