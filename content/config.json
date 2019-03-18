@@ -21,8 +21,18 @@
   "slides": [
     {"path": "index.md", "attrs": {"class":"intro"}},
     [
+      {"path": "1-introduccion/1-porque_testear.md"},
+      {"path": "1-introduccion/2-manual_automatizado.md"},
+      {"path": "1-introduccion/3-ventajas_automatizar.md"},
+      {"path": "1-introduccion/4-tipos_test.md"},
+      {"path": "1-introduccion/5-unitarios.md"},
+      {"path": "1-introduccion/6-integracion.md"},
+      {"path": "1-introduccion/7-e2e.md"}
+    ],
+    [
       {"path": "01-introduccion/01-titulo.md", "attrs": {"class":"bg-dark"}},
       {"path": "01-introduccion/02-automatizar.md", "attrs": {"class":"bg-grey"}},
+      {"path": "01-introduccion/03-automatizar.md"},
       {"path": "01-introduccion/03-cypress.md", "attrs": {"class":"bg-grey"}},
       {"path": "01-introduccion/04-cypress-framework.md", "attrs": {"class":"bg-grey"}},
       {"path": "01-introduccion/05-e2e.md", "attrs": {"class":"bg-grey"}},
@@ -34,40 +44,39 @@
       {"path": "01-introduccion/08-comparacion-frameworks.md", "attrs": {"class":"bg-grey"}}
     ],
     [
-      {"path": "02-instalacion/01-titulo.md", "attrs": {"class":"bg-dark"}},
-      {"path": "02-instalacion/02-requisitos.md",  "attrs": {"class":"bg-grey"}},
-      {"path": "02-instalacion/03-pasos.md", "attrs": {"class":"bg-grey"}},
-      {"path": "02-instalacion/04-ejecucion.md", "attrs": {"class":"bg-grey"}}
+      {"path": "2-instalacion/1-requisitos.md"},
+      {"path": "2-instalacion/2-pasos.md"},
+      {"path": "2-instalacion/3-primera_ejecucion.md"},
+      {"path": "2-instalacion/4-comandos_ejecucion.md"},
+      {"path": "2-instalacion/5-estructura_carpeta.md"}
     ],
     [
-      {"path": "03-modos_ejecucion/01-titulo.md", "attrs": {"class":"bg-dark"}},
-      {"path": "03-modos_ejecucion/02-open.md", "attrs": {"class":"bg-grey"}},
-      {"path": "03-modos_ejecucion/02-open2.md", "attrs": {"class":"bg-grey"}},
-      {"path": "03-modos_ejecucion/03-run.md", "attrs": {"class":"bg-grey"}},
-      {"path": "03-modos_ejecucion/03-run2.md", "attrs": {"class":"bg-grey"}}
+      {"path": "03-modos_ejecucion/1-headless.md"},
+      {"path": "03-modos_ejecucion/2-headed.md"}
     ],
     [
-      {"path": "04-primeros_tests/01-titulo.md", "attrs": {"class":"bg-dark"}},
-      {"path": "04-primeros_tests/02-creacion.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/02-estructura.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/02-hooks.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/03-navigation.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/03-navigation2.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/04-querying.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/04-querying2.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/05-assertions.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/05-assertions2.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/06-common_assertions.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/07-actions.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/07-actions2.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/07-actions3.md", "attrs": {"class":"bg-grey"}},
-      {"path": "04-primeros_tests/07-actions4.md", "attrs": {"class":"bg-grey"}}
+      {"path": "04-configuracion/1-configuracion_inicial.md"}
     ],
     [
-      {"path": "05-selectores_elementos/01-titulo.md", "attrs": {"class":"bg-dark"}},
-      {"path": "05-selectores_elementos/02-inspector_web.md", "attrs": {"class":"bg-grey"}},
-      {"path": "05-selectores_elementos/03-playground_cypress.md", "attrs": {"class":"bg-grey"}},
-      {"path": "05-selectores_elementos/04-etiquetas.md", "attrs": {"class":"bg-grey"}}
+      {"path": "05-primeros_tests/1-primer_test.md"},
+      {"path": "05-primeros_tests/2-API.md"},
+      {"path": "05-primeros_tests/3-creacion.md"},
+      {"path": "05-primeros_tests/4-estructura.md"},
+      {"path": "05-primeros_tests/5-navigation.md"},
+      {"path": "05-primeros_tests/5-navigation2.md"},
+      {"path": "05-primeros_tests/6-hooks.md"},
+      {"path": "05-primeros_tests/7-querying.md"},
+      {"path": "05-primeros_tests/7-querying2.md"},
+      {"path": "05-primeros_tests/8-selector1.md"},
+      {"path": "05-primeros_tests/8-selector2.md"},
+      {"path": "05-primeros_tests/8-selector3.md"},
+      {"path": "05-primeros_tests/05-assertions.md", "attrs": {"class":"bg-grey"}},
+      {"path": "05-primeros_tests/05-assertions2.md", "attrs": {"class":"bg-grey"}},
+      {"path": "05-primeros_tests/06-common_assertions.md", "attrs": {"class":"bg-grey"}},
+      {"path": "05-primeros_tests/9-actions.md"},
+      {"path": "05-primeros_tests/9-actions2.md"},
+      {"path": "05-primeros_tests/9-actions3.md"},
+      {"path": "05-primeros_tests/9-actions4.md"}
     ],
     [
       {"path": "06-ejercicio_practico1/02-enunciado.md"},

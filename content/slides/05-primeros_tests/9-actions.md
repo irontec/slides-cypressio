@@ -1,16 +1,16 @@
-### 4.7. Acciones
+### Acciones
 
-.type()
+* .type()
 ```typescript
 cy.get('.form-email').type('email@email.com')
   .should('have.value', 'email@email.com')
 ```
-.focus()
+* .focus()
 ```typescript
 cy.get('.form-email').focus()
   .should('have.attr', 'style', 'color: blue;')
 ```
-.blur()
+* .blur()
 ```typescript
 cy.get('.form-email').type('Email').blur()
   .should('have.attr', 'style', 'color: red;')

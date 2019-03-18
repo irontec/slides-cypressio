@@ -1,4 +1,4 @@
-### 4.3. Comandos navegación
+### Consejos de navegación
 
 No es aconsejable testear aplicaciones que no sean nuestras: <!-- .element: style="text-align: left;" -->
 

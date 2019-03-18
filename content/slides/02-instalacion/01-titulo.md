@@ -1,1 +1,0 @@
-## 2. Instalación Cypress.io

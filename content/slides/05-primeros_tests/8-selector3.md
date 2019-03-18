@@ -1,4 +1,4 @@
-### 5.3. Etiquetas únicas
+### Etiquetas únicas
 
 No afectan a cambios de clases. Preferencia a cualquier otra etiqueta.
 

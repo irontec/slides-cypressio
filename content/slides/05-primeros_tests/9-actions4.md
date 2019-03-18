@@ -1,10 +1,8 @@
-### 4.7. Acciones
-
-.select()
+* .select()
 ```typescript
 cy.get('.action-select').select('content')
 ```
-.trigger()
+* .trigger()
 ```typescript
 cy.get('[data-cy=draggable]')
   .trigger('mousedown', { which: 1, pageX: 600, pageY: 100 })

@@ -1,14 +1,14 @@
-### 4.4. Consulta elementos / Querying
+### Consulta elementos / Querying
 
-cy.get()
+* cy.get(): obtener
 ```typescript
 cy.get('.button')
 ```
-cy.contains()
+* cy.contains(): contiene
 ```typescript
 cy.get('.button').contains('Enviar')
 ```
-.within()
+* .within(): dentor de
 ```typescript
 cy.get('.query-form').within(() => {
     cy.get('input:first')

@@ -1,4 +1,4 @@
-### 2.1. Requisitos
+### Requisitos de instalación
 
 ![nodejs](media/nodejs.png) <!-- .element: style="width: 50%; text-align: center;" -->
 

@@ -1,4 +1,4 @@
-### 4.2. Estructura del test
+### Tipos de agrupaciones
 
 describe - agrupación de alto nivel
 ```typescript
