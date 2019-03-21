@@ -1,14 +1,17 @@
 ### Comandos navegación
 
-cy.visit():
+* cy.visit(): visitar página.
+
 ```typescript
 cy.visit('http://www.google.com')
 ```
-cy.reload():
+* cy.reload(): recargar página.
+
 ```typescript
 cy.reload(true)
 ```
-cy.go() :
+* cy.go(): navegar hacia adelante o hacia atrás.
+
 ```typescript
 cy.go('back')
 cy.go('forward')

@@ -1,6 +1,6 @@
 ### Acciones
 
-* .type()
+* .type(): escribe dentro de un elemento del DOM.
 ```typescript
 cy.get('.form-email').type('email@email.com')
   .should('have.value', 'email@email.com')

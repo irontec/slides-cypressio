@@ -1,1 +1,0 @@
-## 8. Ejercicio práctico 2

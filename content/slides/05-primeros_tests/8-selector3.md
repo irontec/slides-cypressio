@@ -2,12 +2,10 @@
 
 No afectan a cambios de clases. Preferencia a cualquier otra etiqueta.
 
-* data-cy <!-- .element: class="fragment" -->
-* data-test <!-- .element: class="fragment" -->
-* data-testid <!-- .element: class="fragment" --> </br></br> 
+* data-cy 
+* data-test 
+* data-testid 
 
 ```typescript 
 cy.get('[data-cy=submit]').click()
 ``` 
-
-<!-- .element: class="fragment" -->

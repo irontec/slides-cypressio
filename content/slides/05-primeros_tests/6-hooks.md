@@ -1,25 +1,25 @@
 ### Estructura del test: Hooks
 
-* before(): antes del bloque de tests
+* before(): se ejecuta antes del bloque de tests.
 ```typescript
 describe('Hooks', function() {
 before(function() {
   // Código
 })
 ```
-* after(): después del bloque de tests
+* after(): se ejecuta después del bloque de tests.
 ```typescript
 after(function() {
   // Código
 })
 ```
-* beforeEach(): antes de cada test
+* beforeEach(): se ejecuta antes de cada test.
 ```typescript
 beforeEach(function() {
-  // 
+  // Código
 })
 ```
-* afterEach(): después de cada test
+* afterEach(): se ejecuta después de cada test.
 ```typescript
 afterEach(function() {
   // Código

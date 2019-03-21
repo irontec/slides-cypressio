@@ -1,7 +1,12 @@
 image: node:8.11.1
 
 pages:
+  tags:
+    - desarrollo
+    - shell
   script:
+    - nvm install
+    - nvm use
     - npm cache verify
     - npm i
     - npm run build

@@ -21,44 +21,44 @@
   "slides": [
     {"path": "index.md", "attrs": {"class":"intro"}},
     [
-      {"path": "1-introduccion/1-porque_testear.md"},
-      {"path": "1-introduccion/2-manual_automatizado.md"},
-      {"path": "1-introduccion/3-ventajas_automatizar.md"},
-      {"path": "1-introduccion/4-tipos_test.md"},
-      {"path": "1-introduccion/5-unitarios.md"},
-      {"path": "1-introduccion/6-integracion.md"},
-      {"path": "1-introduccion/7-e2e.md"}
+      {"path": "01-introduccion/1-porque_testear.md"},
+      {"path": "01-introduccion/2-manual_automatizado.md"},
+      {"path": "01-introduccion/3-ventajas_automatizar.md"},
+      {"path": "01-introduccion/5-unitarios.md"},
+      {"path": "01-introduccion/6-integracion.md"},
+      {"path": "01-introduccion/7-e2e.md"},
+      {"path": "01-introduccion/7-e2e2.md"},
+      {"path": "01-introduccion/4-tipos_test.md"},
+      {"path": "01-introduccion/4-tipos_test2.md"},
+      {"path": "01-introduccion/4-tipos_test3.md"},
+      {"path": "01-introduccion/8-pros_contras.md"},
+      {"path": "01-introduccion/9-cypress.md"},
+      {"path": "01-introduccion/9-cypress2.md"},
+      {"path": "01-introduccion/10-cypress_caracteristicas.md"},
+      {"path": "01-introduccion/11-pasos.md"}
     ],
     [
-      {"path": "01-introduccion/01-titulo.md", "attrs": {"class":"bg-dark"}},
-      {"path": "01-introduccion/02-automatizar.md", "attrs": {"class":"bg-grey"}},
-      {"path": "01-introduccion/03-automatizar.md"},
-      {"path": "01-introduccion/03-cypress.md", "attrs": {"class":"bg-grey"}},
-      {"path": "01-introduccion/04-cypress-framework.md", "attrs": {"class":"bg-grey"}},
-      {"path": "01-introduccion/05-e2e.md", "attrs": {"class":"bg-grey"}},
-      {"path": "01-introduccion/05-e2e1.md", "attrs": {"class":"bg-grey"}},
-      {"path": "01-introduccion/05-e2e-gif1.md", "attrs": {"class":"bg-grey"}},
-      {"path": "01-introduccion/05-e2e-gif2.md", "attrs": {"class":"bg-grey"}},
-      {"path": "01-introduccion/06-cypress-caracteristicas.md", "attrs": {"class":"bg-grey"}},
-      {"path": "01-introduccion/07-cypress-caracteristicas.md", "attrs": {"class":"bg-grey"}},
-      {"path": "01-introduccion/08-comparacion-frameworks.md", "attrs": {"class":"bg-grey"}}
-    ],
-    [
-      {"path": "2-instalacion/1-requisitos.md"},
-      {"path": "2-instalacion/2-pasos.md"},
-      {"path": "2-instalacion/3-primera_ejecucion.md"},
-      {"path": "2-instalacion/4-comandos_ejecucion.md"},
-      {"path": "2-instalacion/5-estructura_carpeta.md"}
+      {"path": "02-instalacion/1-requisitos.md"},
+      {"path": "02-instalacion/2-pasos.md"},
+      {"path": "02-instalacion/3-primera_ejecucion.md"},
+      {"path": "02-instalacion/6-estructura_carpeta.md"},
+      {"path": "02-instalacion/6-estructura_carpeta2.md"},
+      {"path": "02-instalacion/4-comandos_ejecucion.md"},
+      {"path": "02-instalacion/5-browsers.md"},
+      {"path": "02-instalacion/5-browsers2.md"}
     ],
     [
       {"path": "03-modos_ejecucion/1-headless.md"},
-      {"path": "03-modos_ejecucion/2-headed.md"}
+      {"path": "03-modos_ejecucion/2-headed.md"},
+      {"path": "03-modos_ejecucion/3-open.md"},
+      {"path": "03-modos_ejecucion/3-open2.md"},
+      {"path": "03-modos_ejecucion/4-run.md"},
+      {"path": "03-modos_ejecucion/4-run2.md"}
     ],
     [
       {"path": "04-configuracion/1-configuracion_inicial.md"}
     ],
     [
-      {"path": "05-primeros_tests/1-primer_test.md"},
       {"path": "05-primeros_tests/2-API.md"},
       {"path": "05-primeros_tests/3-creacion.md"},
       {"path": "05-primeros_tests/4-estructura.md"},
@@ -66,65 +66,82 @@
       {"path": "05-primeros_tests/5-navigation2.md"},
       {"path": "05-primeros_tests/6-hooks.md"},
       {"path": "05-primeros_tests/7-querying.md"},
-      {"path": "05-primeros_tests/7-querying2.md"},
       {"path": "05-primeros_tests/8-selector1.md"},
       {"path": "05-primeros_tests/8-selector2.md"},
       {"path": "05-primeros_tests/8-selector3.md"},
-      {"path": "05-primeros_tests/05-assertions.md", "attrs": {"class":"bg-grey"}},
-      {"path": "05-primeros_tests/05-assertions2.md", "attrs": {"class":"bg-grey"}},
-      {"path": "05-primeros_tests/06-common_assertions.md", "attrs": {"class":"bg-grey"}},
       {"path": "05-primeros_tests/9-actions.md"},
       {"path": "05-primeros_tests/9-actions2.md"},
       {"path": "05-primeros_tests/9-actions3.md"},
-      {"path": "05-primeros_tests/9-actions4.md"}
+      {"path": "05-primeros_tests/9-actions4.md"},
+      {"path": "05-primeros_tests/10-especial_commands.md"},
+      {"path": "05-primeros_tests/10-timeouts.md"},
+      {"path": "05-primeros_tests/11-assertions.md"},
+      {"path": "05-primeros_tests/11-assertions2.md"},
+      {"path": "05-primeros_tests/11-common_assertions.md"}
     ],
     [
-      {"path": "06-ejercicio_practico1/02-enunciado.md"},
-      {"path": "06-ejercicio_practico1/02-enunciado2.md"}
+      {"path": "06-ejercicio_practico1/1-enunciado.md"},
+      {"path": "06-ejercicio_practico1/2-enunciado2.md"}
 
     ],
     [
-      {"path": "07-otros_comandos/01-titulo.md", "attrs": {"class":"bg-dark"}},
-      {"path": "07-otros_comandos/02-traversal.md", "attrs": {"class":"bg-grey"}},
-      {"path": "07-otros_comandos/02-traversal1.md", "attrs": {"class":"bg-grey"}},
-      {"path": "07-otros_comandos/02-traversal2.md", "attrs": {"class":"bg-grey"}},
-      {"path": "07-otros_comandos/03-location.md", "attrs": {"class":"bg-grey"}},
-      {"path": "07-otros_comandos/04-waiting.md", "attrs": {"class":"bg-grey"}},
-      {"path": "07-otros_comandos/05-window.md", "attrs": {"class":"bg-grey"}},
-      {"path": "07-otros_comandos/06-connectors.md", "attrs": {"class":"bg-grey"}},
-      {"path": "07-otros_comandos/06-connectors2.md", "attrs": {"class":"bg-grey"}}
+      {"path": "07-otros_comandos/1-traversal.md"},
+      {"path": "07-otros_comandos/1-traversal1.md"},
+      {"path": "07-otros_comandos/1-traversal2.md"},
+      {"path": "07-otros_comandos/2-location.md"},
+      {"path": "07-otros_comandos/3-waiting.md"},
+      {"path": "07-otros_comandos/4-window.md"},
+      {"path": "07-otros_comandos/5-connectors.md"},
+      {"path": "07-otros_comandos/5-connectors2.md" }
     ],
   
     [
-      {"path": "08-ejercicio_practico2/02-enunciado.md"}
+      {"path": "08-ejercicio_practico2/1-enunciado.md"}
     ],
     [
-      {"path": "09-comandos_custom/01-titulo.md", "attrs": {"class":"bg-dark"}},
-      {"path": "09-comandos_custom/02-custom.md", "attrs": {"class":"bg-grey"}}
+      {"path": "09-comandos_custom/1-custom.md"}
     ],
     [
-      {"path": "10-network_request/01-titulo.md", "attrs": {"class":"bg-dark"}},
-      {"path": "10-network_request/02-routing.md", "attrs": {"class":"bg-grey"}},
-      {"path": "10-network_request/03-assertions.md", "attrs": {"class":"bg-grey"}}
+      {"path": "10-fixtures/1-fixtures.md"},
+      {"path": "10-fixtures/1-fixtures2.md"}
     ],
     [
-      {"path": "11-practica/01-titulo.md", "attrs": {"class":"bg-dark"}},
-      {"path": "11-practica/02-enunciado.md", "attrs": {"class":"bg-grey"}}
+      {"path": "11-practica/1-enunciado.md"}
     ],
     [
-      {"path": "12-reportes/01-titulo.md", "attrs": {"class":"bg-dark"}},
-      {"path": "12-reportes/02-dashboard.md", "attrs": {"class":"bg-grey"}},
-      {"path": "12-reportes/03-dashboard2.md", "attrs": {"class":"bg-grey"}},
-      {"path": "12-reportes/04-dashboard3.md", "attrs": {"class":"bg-grey"}},
-      {"path": "12-reportes/05-mochawesome.md", "attrs": {"class":"bg-grey"}},
-      {"path": "12-reportes/06-mochawesome2.md", "attrs": {"class":"bg-grey"}},
-      {"path": "12-reportes/07-mochawesome3.md", "attrs": {"class":"bg-grey"}},
-      {"path": "12-reportes/08-junit.md", "attrs": {"class":"bg-grey"}},
-      {"path": "12-reportes/09-junit2.md", "attrs": {"class":"bg-grey"}}
+      {"path": "12-network_request/1-routing.md"},
+      {"path": "12-network_request/2-assertions.md"}
     ],
     [
-      {"path": "13-integracion_continua/01-titulo.md", "attrs": {"class":"bg-dark"}},
-      {"path": "13-integracion_continua/02-providers.md", "attrs": {"class":"bg-grey"}}
+      {"path": "13-page_objects/1-pageobjects.md"}
+    ],
+    [
+      {"path": "14-practica/1-enunciado.md"}
+    ],
+    [
+      {"path": "15-entornos/1-entornos.md"},
+      {"path": "15-entornos/2-cypress_json.md"},
+      {"path": "15-entornos/3-cypress_env.md"},
+      {"path": "15-entornos/4-linea_comando.md"}
+    ],
+    [
+      {"path": "16-reportes/1-dashboard.md"},
+      {"path": "16-reportes/1-dashboard2.md"},
+      {"path": "16-reportes/1-dashboard3.md"},
+      {"path": "16-reportes/2-junit.md"},
+      {"path": "16-reportes/2-junit2.md"},
+      {"path": "16-reportes/3-mochawesome.md"},
+      {"path": "16-reportes/3-mochawesome2.md"},
+      {"path": "16-reportes/3-mochawesome3.md"}
+    ],
+    [
+      {"path": "17-practica/1-enunciado.md"}
+    ],
+    [
+      {"path": "20-integracion_continua/1-providers.md"}
+    ],
+    [
+      {"path": "21-buenas_practicas/1-consejos.md"}
     ],
     {"path": "last.md", "attrs": {"class":"last bg-red"}}
   ]
