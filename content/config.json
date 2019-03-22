@@ -63,9 +63,9 @@
       {"path": "05-primeros_tests/2-API.md"},
       {"path": "05-primeros_tests/3-creacion.md"},
       {"path": "05-primeros_tests/4-estructura.md"},
+      {"path": "05-primeros_tests/6-hooks.md"},
       {"path": "05-primeros_tests/5-navigation.md"},
       {"path": "05-primeros_tests/5-navigation2.md"},
-      {"path": "05-primeros_tests/6-hooks.md"},
       {"path": "05-primeros_tests/7-querying.md"},
       {"path": "05-primeros_tests/8-selector1.md"},
       {"path": "05-primeros_tests/8-selector2.md"},
@@ -74,11 +74,12 @@
       {"path": "05-primeros_tests/9-actions2.md"},
       {"path": "05-primeros_tests/9-actions3.md"},
       {"path": "05-primeros_tests/9-actions4.md"},
-      {"path": "05-primeros_tests/10-especial_commands.md"},
+      {"path": "05-primeros_tests/9-reintento.md"},
       {"path": "05-primeros_tests/10-timeouts.md"},
       {"path": "05-primeros_tests/11-assertions.md"},
       {"path": "05-primeros_tests/11-assertions2.md"},
-      {"path": "05-primeros_tests/11-common_assertions.md"}
+      {"path": "05-primeros_tests/11-common_assertions.md"},
+      {"path": "05-primeros_tests/10-especial_commands.md"}
     ],
     [
       {"path": "06-ejercicio_practico1/1-enunciado.md"},

@@ -1,27 +1,24 @@
-### Estructura del test: Hooks
+### Hooks
 
-* before(): se ejecuta antes del bloque de tests.
+before(): se ejecuta UNA VEZ antes del bloque de tests.
 ```typescript
-describe('Hooks', function() {
-before(function() {
-  // Código
-})
+before(function() { })
 ```
-* after(): se ejecuta después del bloque de tests.
+
+beforeEach(): se ejecuta antes de cada test.
 ```typescript
-after(function() {
-  // Código
-})
+beforeEach(function() { })
 ```
-* beforeEach(): se ejecuta antes de cada test.
+
+
+after(): se ejecuta UNA VEZ después del bloque de tests.
 ```typescript
-beforeEach(function() {
-  // Código
-})
+after(function() { })
 ```
-* afterEach(): se ejecuta después de cada test.
+
+afterEach(): se ejecuta después de cada test.
 ```typescript
-afterEach(function() {
-  // Código
-})
+afterEach(function() { })
 ```
+
+https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests.html#Hooks

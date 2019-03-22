@@ -1,23 +1,18 @@
-### Tipos de agrupaciones
+### Estructura del test
 
-* describe(): agrupación de alto nivel
+Prestados de Mocha.
 
-```typescript
-describe('General test name', function()=>{ 
-//código 
-})
-```
-* context(): agrupación de casos de test. Alias de describe().
+describe() y context(): agrupación de alto nivel
 
 ```typescript
-context('Context name', function()=> {
-// código
-})
+describe('General test name', function()=>{ })
+context('General test name', function()=>{ })
 ```
-* it(): caso de test
+
+it() y specify(): casos de test
 
 ```typescript
-it('Test name', function()=> {
-// código
-})
+it('Test name', function()=> { })
+specify('Test name', function()=> { })
 ```
+Excluir o inlcuir tests con .skip() y .only()
