@@ -15,7 +15,8 @@
     "zoom":   false,
     "menu":   true,
     "notes":  true,
-    "highlightjs": true
+    "highlightjs": true,
+    "ga": "UA-130231733-7"
   },
   "serviceWorker": true,
   "slides": [
@@ -94,7 +95,7 @@
       {"path": "07-otros_comandos/5-connectors.md"},
       {"path": "07-otros_comandos/5-connectors2.md" }
     ],
-  
+
     [
       {"path": "08-ejercicio_practico2/1-enunciado.md"}
     ],
