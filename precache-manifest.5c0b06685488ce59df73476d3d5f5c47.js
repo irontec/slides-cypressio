@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "hljs-langs/typescript.js"
   },
   {
-    "revision": "bfa3140b2fbd0e39954ea85d64dead2f",
+    "revision": "90e39882b6c48165d6a43933742448dd",
     "url": "index.html"
   },
   {
@@ -64,6 +64,10 @@ self.__precacheManifest = [
     "url": "media/inspector_web.png"
   },
   {
+    "revision": "163d2572fff17387d558d3461e53760b",
+    "url": "media/testrunner.png"
+  },
+  {
     "revision": "c2561aa1fd10718c46ec339465ee6f87",
     "url": "media/open2.png"
   },
@@ -72,16 +76,12 @@ self.__precacheManifest = [
     "url": "media/CI.png"
   },
   {
-    "revision": "163d2572fff17387d558d3461e53760b",
-    "url": "media/testrunner.png"
+    "revision": "0b04d3c443b5eacb76ff80971f6a1fdc",
+    "url": "media/playground.png"
   },
   {
     "revision": "03cf2366652b4bbd655810fba14f2963",
     "url": "media/frameworks.png"
-  },
-  {
-    "revision": "0b04d3c443b5eacb76ff80971f6a1fdc",
-    "url": "media/playground.png"
   },
   {
     "revision": "b77ac0f61ca7a71b3fc730ee2b5c46ac",
@@ -140,12 +140,12 @@ self.__precacheManifest = [
     "url": "media/peticiones.png"
   },
   {
-    "revision": "cb88f481fce9a22e2f3a37c3c3e4dab6",
-    "url": "media/tweet.png"
-  },
-  {
     "revision": "d39e634d6be25eecb2070da35a2b60de",
     "url": "media/cypress.png"
+  },
+  {
+    "revision": "cb88f481fce9a22e2f3a37c3c3e4dab6",
+    "url": "media/tweet.png"
   },
   {
     "revision": "2730b6c7a534ea350cff309568b27a5d",
@@ -172,10 +172,10 @@ self.__precacheManifest = [
     "url": "media/chaimocha.png"
   },
   {
-    "url": "89e2666c24d37055bcb60e9d2d9f7e35.ttf"
+    "url": "ec4c9962ba54eb91787aa93d361c10a8.ttf"
   },
   {
-    "revision": "d190b4c6450e9a7de0cc",
+    "revision": "f8413d45b8a6942bc6cc",
     "url": "app.js"
   },
   {
@@ -192,14 +192,11 @@ self.__precacheManifest = [
     "url": "d1efcd4d126837fe0dcf9b6cf3a00d64.ttf"
   },
   {
-    "url": "ec4c9962ba54eb91787aa93d361c10a8.ttf"
-  },
-  {
     "revision": "e688707ed86fca73e90fd1e2d3dc4645",
     "url": "a0296bb86117cab30ef27fd515a87f79.svg"
   },
   {
-    "revision": "d190b4c6450e9a7de0cc",
+    "revision": "f8413d45b8a6942bc6cc",
     "url": "app.css"
   },
   {
@@ -216,6 +213,9 @@ self.__precacheManifest = [
   {
     "revision": "8a63aaf795c65b9a001dfc6bf7387293",
     "url": "66cec3167484d42c1ccc513c6259a4f8.svg"
+  },
+  {
+    "url": "89e2666c24d37055bcb60e9d2d9f7e35.ttf"
   },
   {
     "revision": "9d9be852aec6202f99a33cf9cc292d9c",
